@@ -1,0 +1,32 @@
+.main {
+	margin-top:100px;
+	border:1px black solid;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.hanoi-wrapper {
+	border-bottom: 1px black solid;
+	width:150px;
+	margin:0 auto;
+	position:relative;
+}
+.hanoi-tube {
+	height: 400px;
+	background-color: #eee;
+	border-top-left-radius: 999px;
+	border-top-right-radius: 999px;
+	width:5px;
+	margin:0 auto;
+}
+.hanoi-circle {
+	background-color: red;
+	border:999px;
+	position:absolute;
+}
+.controller {
+	margin-top:100px;
+}
+.controller button {
+	margin-top: 25px;
+	margin-left: 15px;
+}

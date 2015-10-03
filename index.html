@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hanoi towers javascript implementation</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/hanoi.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+    	<div class='clearfix'>
+	    	<div class='row controller pull-right'>
+	    		<div class='form-group pull-left'>
+	    			<label for="circles">შეიყვანეთ რგოლების რაოდენობა</label>
+		    		<input type="number" name="circles" class='form-control'>
+	    		</div>
+	    		<div class='form-group  pull-left'>
+		    		<button id="automate" class='btn btn-success'>Automate</button>
+	    		</div>
+	    	</div>
+    	</div>
+    	<div class='row clearfix main'>
+	    	<div class='col-xs-4'>
+	    		<div class='hanoi-wrapper'>
+	    			<div  id="hanoi-a" data-tubeid="a" class='hanoi-tube'>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	
+	    	<div class='col-xs-4'>
+	    		<div class='hanoi-wrapper'>
+		    		<div  id="hanoi-b" data-tubeid="b" class='hanoi-tube'>
+		    		</div>
+		    	</div>
+	    	</div>
+
+	    	<div class='col-xs-4'>
+	    		<div class='hanoi-wrapper'>
+		    		<div  id="hanoi-c" data-tubeid="c" class='hanoi-tube'>
+		    		</div>
+		    	</div>
+	    	</div>
+    	</div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/hanoi.js"></script>
+  </body>
+</html>
